@@ -1,4 +1,4 @@
-@media (max-width:576px) and (min-width:576px){
+@media (max-width:300px){
 	.row {
     --bs-gutter-x: 0 !important;
 	--bs-gutter-y: 0 !important;
@@ -9,7 +9,22 @@
 		height: 2px;
 		background-color: orange;
 		position: absolute;
-		left: 120px;
+		left: 70px;
+		bottom:45px;
+	}
+}
+@media (min-width:300px){
+	.row {
+    --bs-gutter-x: 0 ;
+	--bs-gutter-y: 0;
+	}
+	.aftr::after{
+		content: "";
+		width: 110px;
+		height: 2px;
+		background-color: orange;
+		position: absolute;
+		left: 80px;
 		bottom:45px;
 	}
 }
@@ -20,7 +35,7 @@
 		height: 2px;
 		background-color: orange;
 		position: absolute;
-		left: 115px;
+		left: 100px;
 		bottom:45px;
 	}
 }
