@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}  
+#div1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
+}
+.bi-twitter:hover,.bi-facebook:hover,.bi-instagram:hover,.bi-linkedin:hover{
+	color:orange !important;
+	transition:all .5s ease;
+}
+.aftr::after{
+	content: "";
+    width: 80px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    left: 130px;
+	bottom:45px;
+}
